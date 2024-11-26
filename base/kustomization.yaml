@@ -4,4 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
-
+images:
+- name: schoolofdevops/vote
+  newName: groberts99/vote
+  newTag: v9
